@@ -29,8 +29,10 @@
 * {
   margin: 0;
   padding: 0;
+  color: black;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  background-color: white;
 }
 
 .bg-image {
@@ -56,8 +58,7 @@
   justify-content: space-around;
 }
 
-.happy-clients-logo,
-.awards-win-logo {
+.happy-clients-logo, .awards-win-logo {
   position: absolute;
   left: 70%;
   bottom: 70%;
