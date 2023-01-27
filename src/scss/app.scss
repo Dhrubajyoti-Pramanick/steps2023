@@ -24,3 +24,105 @@
 
 /* Demo Page styles */
 @import 'demo';
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.bg-image {
+    font-size: 5rem;
+    width: 45%;
+}
+
+.stats-art {
+  width: 45rem;
+  padding-left: 50px;
+}
+
+.happy-clients,
+.project-complete,
+.awards-win,
+.years-in-bussiness {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  width: 15rem;
+  margin: 50px;
+  justify-content: space-around;
+}
+
+.happy-clients-logo,
+.awards-win-logo {
+  position: absolute;
+  left: 70%;
+  bottom: 70%;
+}
+
+.project-complete-logo {
+  position: absolute;
+  right: 85%;
+  bottom: 70%;
+}
+.years-in-bussiness-logo {
+  position: absolute;
+  left: 75%;
+  top: 60%;
+}
+
+.happy-clients {
+  left: 18%;
+  top: 0%;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.project-complete {
+  top: 20%;
+  left: 0%;
+  padding: 40px 10px;
+  background: #fff;
+}
+
+.awards-win {
+  left: 18%;
+  padding: 40px 20px;
+  bottom: 18%;
+  background: #fff;
+}
+
+.years-in-bussiness {
+  padding: 40px 10px;
+  padding-left: 8px;
+  bottom: 7%;
+  background: #fff;
+}
+
+.text-style {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  color: #667299;
+}
+
+.rectangle hr {
+  background-color:  #fd7e14;
+  width: 0.5em;
+  outline: none;
+  border: none;
+  margin: 3px;
+  opacity: 1;
+}
+
+.num {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+
+
